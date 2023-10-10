@@ -32,6 +32,7 @@ if start == "start":
   print("You can feel your skin crawl at the thought of going any further")
 else: 
   print("You decide to leave")
+  exit()
 
 choice1 = input("Do you choose to 'continue' or 'turn back'?\n").lower()
 if choice1 == "continue":
@@ -39,7 +40,7 @@ if choice1 == "continue":
   print("You arrive at a circular room with 2 doors. You see rats scurrying around.")
   print("A loud scream echoes through your mind, unsure if you imagined it or not.")
 else: 
-  print("You decide to leave and return to the safety of your home")
+  print("You decide to leave but are then teleported in front of two doors")
 
 choice2 = input("Do you choose the door on the 'right' or the 'left'?\n").lower()
 if choice2 == "right":
@@ -97,19 +98,22 @@ else:
   print("By the time you realize, it is too late to react.")
   print("A trap door opens and you plummet to your death")
   print("GAME OVER")
+  exit()
 
 choice3 = input("Do you 'Attack', 'Run', or 'Do nothing'?\n").lower()
 if choice3 == "run":
   print("The knight commands the dragon to blast you with fire as you turn around")
   print("You try to dodge, but the blast is too large... and you burn to death")
   print("Game Over")
+  exit()
 elif choice3 == "attack":
   print("The Dark Knight laughs at your measly attacks")
   print("The Knight dismounts and thrusts his lances through your chest")
   print("Unable to speak as you gasp for air, the Knight takes your head in one swing")
-  print("You are puzzled that you can see your body from...without a head")
+  print("You are puzzled that you can see your body...without your head attached!")
   print("You try to scream but your vision fade to darkness")
   print("Game Over")
+  exit()
 elif choice3 == "do nothing":
   print("You decide to do nothing")
   print("The knight looks at you and senses you are pure of heart")
@@ -127,6 +131,7 @@ elif choice4== "right":
   print("You recieve millions worth of jewels and gold")
   print("You blink in disbelief and find yourself at the entrance of the dungeon")
   print("With your treasure in hand you hold your head high and head to the town")
-  print("You get back and pay off your loans and hit the strip club with the boys!")
+  print("You pay off your loans and go to the finest brothel in town...")
+  print("Not so pure of heart it seems")
   
 
